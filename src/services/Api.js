@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-let mainURL = '/api/v1/';
+let mainURL = 'https://twooter-io.herokuapp.com/api/v1/';
 if(process.env.NODE_ENV === 'development'){
     mainURL = 'http://localhost:5000/api/v1/'
 }
